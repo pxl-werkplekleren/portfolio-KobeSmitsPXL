@@ -87,3 +87,24 @@ footer {
     background: #333;
     color: white;
 }
+.kwadrant-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.kwadrant-table th {
+    background-color: #333; /* Of de kleur van je eigen thema */
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.kwadrant-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    line-height: 1.5;
+}
